@@ -21,14 +21,19 @@ By changing our mac address, we can bypass filters in a network that doesn’t all
 
 
 Using mac_changer to change mac address
+---------------------------------------
 Make sure you have git installed in your system before moving to the next steps.
+
 1>	To use this tool first you have to open your terminal and type the following command: 
 git clone https://github.com/cs-sohan/mac_changer
+
 2>	Now move to the directory where you stored it.
+
 3>	Now type the following command to view the options of the tool:
 python mac_changer.py -h
+
 4>	Now I will change it using the following command:
-python mac_changer.py -i eth0 -m 00:11:22:33:44:55
+python mac_changer.py -i <interface-name> -m <spoof mac address>
 
 That’s it. I have successfully changed my mac address to my custom mac address and now I can do so many cool things.
 
@@ -42,5 +47,6 @@ My name is Sohan Chakraborty and I am an Ethical Hacker & a Cyber-Security Enthu
 Connect with me:
 -----------------
  linkedin: sohan-chakraborty-cs
+ 
  email: cs.sohanchakraborty@gmail.com
 
