@@ -33,7 +33,7 @@ git clone https://github.com/cs-sohan/mac_changer
 python mac_changer.py -h
 
 4>	Now I will change it using the following command:
-python mac_changer.py -i <interface-name> -m <spoof mac address>
+python mac_changer.py -i interface-name -m spoof mac address
 
 That’s it. I have successfully changed my mac address to my custom mac address and now I can do so many cool things.
 
